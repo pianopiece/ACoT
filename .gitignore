@@ -1,0 +1,8 @@
+# Python
+*.pyc
+__pycache__
+*.egg-info
+.ipynb_checkpoints
+
+.vscode
+.DS_Store
