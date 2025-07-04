@@ -2,7 +2,7 @@
 The official repo of paper [Mitigating Object Hallucination through Assembled Chain-of-Thought Reasoning]().
 
 ## Authors
-Xinhao Wang, Xinyu Ma, ShengYong Ding, Lidia S. Chao, Derek F. Wong.
+Xinhao Wang, Xinyu Ma, Shengyong Ding, Lidia S. Chao, Derek F. Wong.
 
 ## Abstract
 Recent years have witnessed a rapid development of Large Vision-Language Models (LVLMs), spurred by progress in Large Language Models (LLMs). However, a significant challenge has emerged: Object Hallucination, where the generated textual descriptions misalign with the factual visual content. This issue poses a critical safety risk in applications requiring high accuracy and hampers further progress in LVLM development. While previous research has partially addressed hallucinations from a visual standpoint, the language model capability within LVLMs remains underutilized. In this work, we introduce **A**ssembled **C**hain-**o**f-**T**hought (**A-CoT**), a novel training-free method designed to mitigate object hallucinations through effective Chain-of-Thought (CoT) reasoning. By using diverse Chain-of-Thought prompts to leverage knowledge in LVLMs and integrating them through assembly decoding, A-CoT combines original and CoT outputs, enabling multi-perspective reasoning, enhancing output robustness, and significantly advancing hallucination mitigation techniques. Experiments on multiple object hallucination benchmarks—POPE, CHAIR, and MME Hallucination Subset—demonstrate that A-CoT significantly reduces object hallucinations and outperforms baseline models.
