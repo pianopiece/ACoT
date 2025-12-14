@@ -1,5 +1,5 @@
 # Mitigating Object Hallucination through Assembled Chain-of-Thought Reasoning
-The official repo of paper [Mitigating Object Hallucination through Assembled Chain-of-Thought Reasoning]().
+The official repo of paper [Mitigating Object Hallucination through Assembled Chain-of-Thought Reasoning](https://link.springer.com/chapter/10.1007/978-981-95-3346-6_4).
 
 ## Authors
 Xinhao Wang, Xinyu Ma, Shengyong Ding, Lidia S. Chao, Derek F. Wong.
@@ -60,6 +60,16 @@ The logit adjustment framework (i.e., `sample.py`) is based on [VCD](https://git
 
 ## Citation
 If our paper or code is helpful to you, please consider citing our work:
+```
+@inproceedings{wang2025mitigating,
+  title={Mitigating Object Hallucination Through Assembled Chain-of-Thought Reasoning},
+  author={Wang, Xinhao and Ma, Xinyu and Ding, Shengyong and Chao, Lidia S and Wong, Derek F},
+  booktitle={CCF International Conference on Natural Language Processing and Chinese Computing},
+  pages={48--61},
+  year={2025},
+  organization={Springer}
+}
+```
 
 ## Contact
 If you have any questions, please email mc36507@umac.mo.
